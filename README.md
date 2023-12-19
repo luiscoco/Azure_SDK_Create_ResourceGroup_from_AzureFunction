@@ -105,8 +105,13 @@ namespace Company.Function
 
 ## 2. In Azure Portal create a new Azure Function
 
+In Azure Portal we navigate to the Functions App service 
 
+![image](https://github.com/luiscoco/Azure_SDK_Create_ResourceGroup_from_AzureFunction/assets/32194879/8810692e-9eaf-4f7a-a970-909e9defafb3)
 
+We input the new Function values: subscription, resourcegroup, region, function name, runtime stack, etc
+
+![image](https://github.com/luiscoco/Azure_SDK_Create_ResourceGroup_from_AzureFunction/assets/32194879/588cbc2a-c7b7-4964-a908-1c1272f2be2d)
 
 ## 3. In Azure Portal register a new application
 
