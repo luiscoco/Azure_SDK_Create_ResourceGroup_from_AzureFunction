@@ -144,7 +144,7 @@ az role assignment create --assignee <app-id> ^
 --scope /subscriptions/<subscription-id>
 ```
 
-## 4. Create the environmental variables in Azure Function
+## 4. Create the environmental variables in Azure Portal for the Azure Function
 
 Go to the Azure Function in Azure Portal and in the Configuration menu option in the left menu create the following environmental variables:
 
