@@ -178,13 +178,23 @@ az ad app credential reset --id <app-id> ^
 
 ## 5. Deploy the Azure Function from VSCode to Azure Portal
 
+We can deploy the Azure Function from the Terminal Window in VSCode running this command:
 
-
-
+```
+func azure functionapp publish <FunctionAppName>
+```
 
 ## 6. Test/Verify the Azure Function
 
-Navigate in your internet web browser to the Azure Function endpoint:
+In Azure Portal we navigate to the Azure Function and we click on the "HttpTrigger1" link
+
+![image](https://github.com/luiscoco/Azure_SDK_Create_ResourceGroup_from_AzureFunction/assets/32194879/d0e5735c-918c-4864-b0a6-f64e0c7929b3)
+
+We click on the option "**Get Function Url**"
+
+![image](https://github.com/luiscoco/Azure_SDK_Create_ResourceGroup_from_AzureFunction/assets/32194879/1b45bd5c-363b-4de3-a5ca-92a5894d24ab)
+
+And navigate in your internet web browser to the Function endpoint:
 
 https://mynewfunctionluis1974.azurewebsites.net/api/HttpTrigger1?code=PIeNvNG0KeUvWu12oFMuMQ_bUKXDu_kNYJj0aG3LBSjKAzFu0Z0uuQ==&resourceGroupName=holaluis
 
