@@ -2,6 +2,40 @@
 
 ## 1. Create the Azure Function in VSCode with Azure SDK for .NET
 
+Run VSCode and create a new Azure Function
+
+![image](https://github.com/luiscoco/Azure_SDK_Create_ResourceGroup_from_AzureFunction/assets/32194879/91a2f402-8362-4076-b493-be28c47b21ab)
+
+We select **Create Function...**
+
+![image](https://github.com/luiscoco/Azure_SDK_Create_ResourceGroup_from_AzureFunction/assets/32194879/f3f871a1-5fc1-44cf-a59a-50ccc7a56479)
+
+We select the folder to place the new Azure function
+
+![image](https://github.com/luiscoco/Azure_SDK_Create_ResourceGroup_from_AzureFunction/assets/32194879/4f5f9df4-a839-4a86-8f88-d97d9fdd10d7)
+
+Select the C# language
+
+![image](https://github.com/luiscoco/Azure_SDK_Create_ResourceGroup_from_AzureFunction/assets/32194879/b9a4a474-f5c2-472b-96ca-06cb7ed8924d)
+
+Select the .NET runtime 
+
+![image](https://github.com/luiscoco/Azure_SDK_Create_ResourceGroup_from_AzureFunction/assets/32194879/2c69fc2d-c8ee-49ba-aa80-16d98882581b)
+
+We select the Http Triggered Azure Function
+
+![image](https://github.com/luiscoco/Azure_SDK_Create_ResourceGroup_from_AzureFunction/assets/32194879/71a282ef-744d-4d07-a75a-68dd703356dd)
+
+Provide the Function name
+
+![image](https://github.com/luiscoco/Azure_SDK_Create_ResourceGroup_from_AzureFunction/assets/32194879/50a400d4-99d6-4e31-8128-47e0aa191321)
+
+This is the project folders structure
+
+![image](https://github.com/luiscoco/Azure_SDK_Create_ResourceGroup_from_AzureFunction/assets/32194879/bd420703-55fb-4f95-96f0-6c852d4aeb5b)
+
+Now we input the C# source code:
+
 ```csharp
 using System;
 using System.Net;
