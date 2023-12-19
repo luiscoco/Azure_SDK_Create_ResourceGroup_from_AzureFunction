@@ -100,7 +100,9 @@ az account show --query tenantId -o tsv
 
 Assign Required Permissions:
 ```
-az role assignment create --assignee <app-id> --role Contributor --scope /subscriptions/<subscription-id>
+az role assignment create --assignee <app-id> ^
+--role Contributor ^
+--scope /subscriptions/<subscription-id>
 ```
 
 ## 4. Create the environmental variables in Azure Function
@@ -128,7 +130,11 @@ az account show --query tenantId -o tsv
 Retrieve the Secret (**AZURE_CLIENT_SECRET**)
 
 ```
-az ad app credential reset --id <app-id> --append --credential-description "MyNewSecret" --query password -o tsv
+az ad app credential reset --id <app-id> ^
+--append ^
+--credential-description "MyNewSecret" ^
+--query password ^
+-o tsv
 ```
 
 ## 5. Deploy the Azure Function from VSCode to Azure Portal
